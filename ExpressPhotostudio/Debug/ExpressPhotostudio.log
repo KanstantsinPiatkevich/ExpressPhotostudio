@@ -1,0 +1,45 @@
+﻿Сборка начата 04.12.2016 20:50:02.
+     1>Проект "D:\Прога\ЯП\Курсовая\Файлы программы\ExpressPhotostudio\ExpressPhotostudio\ExpressPhotostudio.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib ChromakeyForm.cpp LevelsForm.cpp MainForm.cpp ToolOptionsForm.cpp
+         ChromakeyForm.cpp
+         LevelsForm.cpp
+         MainForm.cpp
+     1>MainForm.cpp(125): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+     1>MainForm.cpp(127): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+     1>MainForm.cpp(131): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+     1>MainForm.cpp(135): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+     1>MainForm.cpp(159): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>MainForm.cpp(161): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>MainForm.cpp(302): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>MainForm.cpp(304): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>MainForm.cpp(308): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>MainForm.cpp(310): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>MainForm.cpp(314): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>MainForm.cpp(316): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>MainForm.cpp(601): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>MainForm.cpp(606): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>MainForm.cpp(608): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>MainForm.cpp(793): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>MainForm.cpp(856): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>MainForm.cpp(938): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>MainForm.cpp(1268): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+         ToolOptionsForm.cpp
+         Создание кода...
+     1>d:\прога\яп\курсовая\файлы программы\expressphotostudio\expressphotostudio\mainform.cpp(137): warning C4715: ExpressPhotostudio::MainForm::getHueFromRgb: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Прога\ЯП\Курсовая\Файлы программы\ExpressPhotostudio\Debug\ExpressPhotostudio.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Debug\ExpressPhotostudio.ChromakeyForm.resources /ASSEMBLYRESOURCE:Debug\ExpressPhotostudio.LevelsForm.resources /ASSEMBLYRESOURCE:Debug\ExpressPhotostudio.MainForm.resources /ASSEMBLYRESOURCE:Debug\ExpressPhotostudio.ToolOptionsForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Прога\ЯП\Курсовая\Файлы программы\ExpressPhotostudio\Debug\ExpressPhotostudio.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\resource.res
+         Debug\ChromakeyForm.obj
+         Debug\LevelsForm.obj
+         Debug\Pic.obj
+         Debug\MainForm.obj
+         Debug\ToolOptionsForm.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         ExpressPhotostudio.vcxproj -> D:\Прога\ЯП\Курсовая\Файлы программы\ExpressPhotostudio\Debug\ExpressPhotostudio.exe
+       GenerateSatelliteAssemblies:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\AL.exe /culture:en /out:"D:\Прога\ЯП\Курсовая\Файлы программы\ExpressPhotostudio\Debug\en\ExpressPhotostudio.resources.dll" /platform:x86 /template:"D:\Прога\ЯП\Курсовая\Файлы программы\ExpressPhotostudio\Debug\ExpressPhotostudio.exe" /embed:Debug\ExpressPhotostudio.MainForm.en.resources
+     1>Сборка проекта "D:\Прога\ЯП\Курсовая\Файлы программы\ExpressPhotostudio\ExpressPhotostudio\ExpressPhotostudio.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:16.54
